@@ -110,7 +110,7 @@ if COMMAND:
     sys.exit(ping_server(URL))
 
 
-PATH = os.environ.get("NZBPP_FINALDIR") or os.environ["NZBPP_DIRECTORY"]
+PATH = os.environ.get("NZBNA_DIRECTORY")
 
 
 if VERBOSE:
