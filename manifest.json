@@ -1,15 +1,15 @@
 {
     "main": "main.py",
-    "name": "NotifyEmbyJellyfin",
-    "homepage": "https://github.com/nzbgetcom/Extension-NotifyEmbyJellyfin/",
-    "kind": "POST-PROCESSING",
-    "displayName": "Notify Emby/Jellyfin",
+    "name": "NotifyEmbyJellyfinDirectRename",
+    "homepage": "https://github.com/lordload/Extension-NotifyEmbyJellyfinDirectRename/",
+    "kind": "QUEUE",
+    "displayName": "Notify Emby/Jellyfin after DirectRename",
     "version": "1.1",
-    "nzbgetMinVersion": "23.0",
-    "author": "Denis",
+    "nzbgetMinVersion": "25.0",
+    "author": "lordload",
     "license": "GNU",
-    "about": "Post-Processing extension to trigger Emby/Jellyfin after downloads.",
-    "queueEvents": "",
+    "about": "Queue extension to trigger Emby/Jellyfin after DirectRename.",
+    "queueEvents": "NZB_DIRECTRENAMED",
     "description": [],
     "requirements": [
         "This extension supports Python 3.8 and above."
