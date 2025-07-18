@@ -4,7 +4,7 @@
     "homepage": "https://github.com/lordload/Extension-NotifyEmbyJellyfinDirectRename/",
     "kind": "QUEUE",
     "displayName": "Notify Emby/Jellyfin after DirectRename",
-    "version": "1.1",
+    "version": "1.0",
     "nzbgetMinVersion": "25.0",
     "author": "lordload",
     "license": "GNU",
